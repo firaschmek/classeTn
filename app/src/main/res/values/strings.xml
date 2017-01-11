@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">classe.tn</string>
+    <string name="dialog_OK">نعم</string>
+<string name="dialog_CANCEL">لا</string>
+    <string name="dialog_fragment_exit_popup_body">هل تريد مغادرة التطبيق ؟</string>
+
+    <string name="splash_text1">تطبيق قسم</string>
+    <string name="splash_text2">تواصل مدرسي مبسط</string>
+    <string name="splash_text3">تنسيق مواعيد مستجدات</string>
+    <string name="splash_text4"><a><u>www.classe.tn  </u></a></string>
+
+    <string name="copyright_reserved">Copyright © 2017 XXXX. All rights reserved.</string>
+
+    <string name="email_auth_txtv">أضف بريدك الإلكتروني</string>
+    <string name="phone_auth_txtv">أضف رقم هاتفك الجوال</string>
+    <string name="login_btn_str">دخول</string>
+
+
+</resources>
