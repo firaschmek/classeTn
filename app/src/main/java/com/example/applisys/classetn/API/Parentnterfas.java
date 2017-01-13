@@ -7,6 +7,8 @@ package com.example.applisys.classetn.API;
 
 import com.example.applisys.classetn.Bean.Parent;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.POST;
@@ -14,9 +16,9 @@ import retrofit2.http.Path;
 import retrofit2.http.Query;
 
 
-public interface APInterfas {
+public interface Parentnterfas {
 
-    @GET("/get_classe_parent.php?code={code}")
+    @GET("/get_classe_parent.php")
     Call<Parent> showParent(@Query("code") String code);
 
 

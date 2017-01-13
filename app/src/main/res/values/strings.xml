@@ -14,6 +14,19 @@
     <string name="email_auth_txtv">أضف بريدك الإلكتروني</string>
     <string name="phone_auth_txtv">أضف رقم هاتفك الجوال</string>
     <string name="login_btn_str">دخول</string>
+    <string name="btn_emploi">جدول الأوقات</string>
+    <string name="btn_prof">الأساتذة</string>
+    <string name="btn_absence">الغيابات</string>
+    <string name="btn_examen">الإمتحانات</string>
+
+    <string name="error_code_msg">معطياتك غير صحيحة أو أنك غير مسجل بقاعدة البيانات</string>
+    <string name="error_internet_msg">تثبت من أن هاتفك متصل بشبكة الأنترنات</string>
+    <string name="nom_eleve_txt"> الإسم واللقب</string>
+    <string name="etablissement_txt"> المؤسسة</string>
+    <string name="Niveaux_txt">المستوى الدراسي</string>
+    <string name="clasee_txt">القسم</string>
+    <string name="btn_save">تسجيل</string>
+
 
 
 </resources>

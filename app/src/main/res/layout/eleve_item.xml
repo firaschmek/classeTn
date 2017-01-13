@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/orange300">
+
+    <TextView
+
+
+        android:id="@+id/eleve_name_txtv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="30sp"
+        android:textColor="@color/red900"
+        android:layout_marginRight="50dp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/eleve_name_txtv"
+        android:layout_marginRight="-50dp"
+        android:src="@drawable/ic_account"
+        android:layout_centerVertical="true"
+      />
+</RelativeLayout>

@@ -7,7 +7,9 @@
 
     <color name="orange700"> #F57C00</color>
 
-    <color name="orange600"> #FB8C00</color> #000000
+    <color name="orange600"> #FB8C00</color>
+    <color name="orange300"> #ffb74d</color>
 
     <color name="black">  #000000</color>
+    <color name="red900">  #b71c1c</color>
 </resources>

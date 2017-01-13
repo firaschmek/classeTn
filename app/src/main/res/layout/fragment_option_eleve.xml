@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_layout_detail_eleve_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_emploi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:padding="12dp"
+        android:background="@color/orange700"
+        android:text="@string/btn_emploi"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_prof"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_emploi"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:padding="12dp"
+        android:background="@color/orange700"
+        android:text="@string/btn_prof"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_absence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_prof"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:padding="12dp"
+        android:background="@color/orange700"
+        android:text="@string/btn_absence"/>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btn_examen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/btn_absence"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:padding="12dp"
+        android:background="@color/orange700"
+        android:text="@string/btn_examen"/>
+</RelativeLayout>
+
+
+
+
+
+

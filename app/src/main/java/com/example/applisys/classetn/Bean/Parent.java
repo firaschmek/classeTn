@@ -7,39 +7,30 @@ package com.example.applisys.classetn.Bean;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
+import java.util.List;
+
 public class Parent {
 
-    @SerializedName("nom_eleve")
+    @SerializedName("error")
     @Expose
-    private String nomEleve;
-    @SerializedName("classe")
+    private String error;
+    @SerializedName("eleves")
     @Expose
-    private String classe;
-    @SerializedName("etab")
-    @Expose
-    private String etab;
+    private List<Eleve> eleves = null;
 
-    public String getNomEleve() {
-        return nomEleve;
+    public String getError() {
+        return error;
     }
 
-    public void setNomEleve(String nomEleve) {
-        this.nomEleve = nomEleve;
+    public void setError(String error) {
+        this.error = error;
     }
 
-    public String getClasse() {
-        return classe;
+    public List<Eleve> getEleves() {
+        return eleves;
     }
 
-    public void setClasse(String classe) {
-        this.classe = classe;
-    }
-
-    public String getEtab() {
-        return etab;
-    }
-
-    public void setEtab(String etab) {
-        this.etab = etab;
+    public void setEleves(List<Eleve> eleves) {
+        this.eleves = eleves;
     }
 }
