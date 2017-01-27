@@ -3,6 +3,7 @@ package com.example.applisys.classetn.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
 
 import com.example.applisys.classetn.MainActivity;
 import com.example.applisys.classetn.R;
@@ -18,6 +19,7 @@ public class SplashActivity extends BaseActivity {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+
         setContentView(R.layout.activity_splash);
 
         /* New Handler to start the Menu-Activity

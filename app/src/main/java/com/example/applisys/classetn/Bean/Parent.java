@@ -14,6 +14,9 @@ public class Parent {
     @SerializedName("error")
     @Expose
     private String error;
+    @SerializedName("code_parent")
+    @Expose
+    private String codeParent;
     @SerializedName("eleves")
     @Expose
     private List<Eleve> eleves = null;
@@ -24,6 +27,14 @@ public class Parent {
 
     public void setError(String error) {
         this.error = error;
+    }
+
+    public String getCodeParent() {
+        return codeParent;
+    }
+
+    public void setCodeParent(String codeParent) {
+        this.codeParent = codeParent;
     }
 
     public List<Eleve> getEleves() {

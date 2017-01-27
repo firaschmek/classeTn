@@ -14,6 +14,6 @@ import retrofit2.http.Query;
 
 public interface UserInterfas {
 
-    @GET("/users/{user}")
+    @GET("users/{user}")
     Call<User> certeainuser(@Path("user") String user);
 }

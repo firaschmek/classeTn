@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_frg_add_eleve"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/red900"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/logo_app"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/logocla"
+
+                />
+
+            <ImageView
+                android:id="@+id/back_icon_add_prent"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/left_arrow" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/layout_for_icon_frg_add_elev"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/toolbar_frg_add_eleve"
+        android:background="@drawable/elev_rise_finger_v5">
+
+    </View>
+
+
+
+
+
+            <EditText
+
+                android:id="@+id/frg_add_parent_id_parent_editxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableLeft="@drawable/ic_add_parent"
+                android:drawablePadding="10dp"
+                android:hint="@string/parent_label"
+                android:layout_below="@+id/layout_for_icon_frg_add_elev"
+                android:layout_marginTop="60dp"
+                  android:maxLines="1"
+              />
+
+
+    <Button
+        android:id="@+id/btn_signin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/frg_add_parent_id_parent_editxt"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:padding="12dp"
+        android:background="@color/red900"
+        android:text="تسجيل"
+
+
+        android:textColor="@color/white"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

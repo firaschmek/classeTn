@@ -127,5 +127,4 @@ public class Etablissement {
     public void setAdressAR(String adressAR) {
         this.adressAR = adressAR;
     }
-
 }

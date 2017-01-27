@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">classe.tn</string>
+    <string name="app_name">قسم</string>
     <string name="dialog_OK">نعم</string>
-<string name="dialog_CANCEL">لا</string>
+    <string name="dialog_CANCEL">لا</string>
     <string name="dialog_fragment_exit_popup_body">هل تريد مغادرة التطبيق ؟</string>
 
-    <string name="splash_text1">تطبيق قسم</string>
+    <string name="splash_text1">قسم</string>
     <string name="splash_text2">تواصل مدرسي مبسط</string>
     <string name="splash_text3">تنسيق مواعيد مستجدات</string>
     <string name="splash_text4"><a><u>www.classe.tn  </u></a></string>
@@ -21,12 +21,35 @@
 
     <string name="error_code_msg">معطياتك غير صحيحة أو أنك غير مسجل بقاعدة البيانات</string>
     <string name="error_internet_msg">تثبت من أن هاتفك متصل بشبكة الأنترنات</string>
-    <string name="nom_eleve_txt"> الإسم واللقب</string>
+    <string name="nom_eleve_txt">اسم التلميذ</string>
     <string name="etablissement_txt"> المؤسسة</string>
     <string name="Niveaux_txt">المستوى الدراسي</string>
     <string name="clasee_txt">القسم</string>
     <string name="btn_save">تسجيل</string>
+    <string name="add_student"><a><u>أضف تلميذ</u></a></string>
 
+    <string name="niveau_7">السابعة أساسي</string>
+    <string name="niveau_8">الثامنة أساسي</string>
+    <string name="niveau_9">التاسعة أساسي</string>
+    <string name="nom_obligatoire">الإسم ضروري</string>
+    <string name="niveau_obligatoire">المستوى ضروري</string>
+    <string name="etab_obligatoire"> خطأ هنالك حقول ضرورية فارغة</string>
+    <string name="class_obligatoire">القسم ضروري</string>
+    <string name="inscri_parent"><a><u>سجل نفسك</u></a></string>
+    <string name="email_or_phone_number">أضف رقم هاتفك أو بريدك الإلكتروني</string>
+    <string name="add_parent">إنشاء حساب</string>
+    <string name="success_add">تم التسجيل بنجاح</string>
+    <string name="failure_add">فشل التسجيل</string>
+    <string name="reclamation_txt">تم تبليغ المؤسسة</string>
+    <string name="shared_key">com.example.applisys.classetn</string>
+    <string name="parent_label">رقم الهاتف أو بريدك الإلكتروني</string>
 
+    <string name="error_sign_up">خطأ في التسجيل حاول مجددا</string>
+
+    <string name="email_or_phone_non_valid">رقم الهاتف أو البريد الإاكتروني غير صالح</string>
+    <string name="ajouter_eleve">تسجيل التلميذ</string>
+    <string name="creer_autre_compte">إنشاء حساب</string>
+    <string name="a_propos">حول التطبيق</string>
+    <string name="deconnexion">خروج</string>
 
 </resources>

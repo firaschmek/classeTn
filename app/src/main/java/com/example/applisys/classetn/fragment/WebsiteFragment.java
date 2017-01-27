@@ -24,7 +24,7 @@ public class WebsiteFragment extends  BaseFragment {
         View view = inflater.inflate(R.layout.fragment_website, container, false);
         WebView myWebView = (WebView) view.findViewById(R.id.webview);
         myWebView.loadUrl("http://classe.tn");
-
+//this returned view ok
 
         return view;
     }

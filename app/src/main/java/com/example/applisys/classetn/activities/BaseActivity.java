@@ -18,7 +18,7 @@ import com.example.applisys.classetn.fragment.BaseFragment;
 import com.example.applisys.classetn.util.DialogUtils;
 
 /**
- * Created by Hatem.Noureddine on 09/09/2015.
+ * applisys on 12/01/17
  */
 public class BaseActivity extends AppCompatActivity {
 

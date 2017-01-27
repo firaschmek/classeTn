@@ -1,20 +1,154 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_frg_add_eleve"
         android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/red900"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/logo_app"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/logocla"
+
+                />
+
+            <ImageView
+                android:id="@+id/back_icon_add_eleve"
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/left_arrow" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:id="@+id/layout_for_icon_frg_add_elev"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_below="@+id/toolbar_frg_add_eleve"
+        android:background="@drawable/elev_rise_finger_v5">
+
+    </View>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="@string/nom_eleve_txt"/>
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/nom_edittext"
-        />
 
-    <TextView
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/layout_for_icon_frg_add_elev"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-50dp"
+        android:src="@drawable/plus"
+        app:backgroundTint="@color/red900" />
+
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/etablissement_txt"/>
-</LinearLayout>
+        android:layout_below="@+id/layout_for_icon_frg_add_elev"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+
+            <EditText
+
+                android:id="@+id/frg_add_elev_nom_elev_editxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:drawableRight="@drawable/student"
+                android:drawablePadding="10dp"
+                android:hint="@string/nom_eleve_txt"
+                android:layout_marginTop="20dp"
+                android:nextFocusDown="@+id/frg_add_elev_etab_autocomtxtv"
+                android:nextFocusForward="@+id/frg_add_elev_etab_autocomtxtv"
+                android:maxLines="1"/>
+
+
+            <AutoCompleteTextView
+                android:id="@+id/frg_add_elev_etab_autocomtxtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frg_add_elev_nom_elev_editxt"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/university"
+                android:hint="@string/etablissement_txt"
+                android:layout_marginTop="20dp"
+                android:nextFocusDown="@+id/niveaux_txtv"
+                android:nextFocusForward="@+id/niveaux_txtv"
+                android:maxLines="1"
+                android:completionThreshold="1"/>
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/niveaux_txtv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/frg_add_elev_etab_autocomtxtv"
+                    android:hint="@string/Niveaux_txt"
+                    android:drawableRight="@drawable/ic_book"
+                    android:drawablePadding="10dp"
+                    android:layout_marginTop="20dp"
+                android:nextFocusDown="@+id/frg_add_elev_classe_txtv"
+                    android:nextFocusForward="@+id/frg_add_elev_classe_txtv"
+                    android:maxLines="1"
+                    android:completionThreshold="1"
+                    />
+
+
+
+            <TextView
+                android:id="@+id/frg_add_elev_classe_txtv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/niveaux_txtv"
+                android:layout_marginTop="20dp"
+                android:text="@string/clasee_txt"
+                android:textAlignment="center"
+                android:background="@color/logo_color"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/class_recycler_view"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/frg_add_elev_classe_txtv">
+
+
+            </android.support.v7.widget.RecyclerView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

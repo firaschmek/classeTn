@@ -8,7 +8,7 @@ import android.support.v4.app.Fragment;
 import com.example.applisys.classetn.activities.BaseActivity;
 
 /**
- * Created by Hatem.Noureddine on 09/09/2015.
+ * Created by Firas chmek on 09/09/2015.
  *
  * @version 1.0
  */

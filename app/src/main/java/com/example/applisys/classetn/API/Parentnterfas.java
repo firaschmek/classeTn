@@ -18,8 +18,9 @@ import retrofit2.http.Query;
 
 public interface Parentnterfas {
 
-    @GET("/get_classe_parent.php")
-    Call<Parent> showParent(@Query("code") String code);
+    @GET("get_parent.php")
+    Call<Parent> showParent(@Query("code") String phone);
 
-
+    @GET("get_submit_parent.php")
+    Call<Parent> addParent(@Query("tel") String phone,@Query("email") String email);
 }
